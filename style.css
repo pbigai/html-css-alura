@@ -68,17 +68,23 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.apresentacao__links__link {
-    border: 2px solid #0067A6;
+.apresentacao__links__link:hover {
+    border: 2px solid #0290e9;
     width: 280px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 16px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
     color: #f9f9f9;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__icone {
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    padding: 2px;
 }
 
 .apresentacao__imagem {
